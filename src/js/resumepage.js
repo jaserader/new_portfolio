@@ -29,16 +29,16 @@ class Resumepage extends React.Component{
 
           <div className="resume w3-animate-top">
             <p id="skills">
-              SKILLS:	HTML, CSS, SASS, Sketch, JavaScript, jQuery, Knockout.js, PHP, Bourbon/Neat, React, Backbone.js, Git, GitHub, Command Terminal, Bower, NPM, Gulp, Adobe Illustrator, Adobe Capture
+              SKILLS:	HTML, CSS, SASS, JavaScript, jQuery, Knockout.js, Bourbon/Neat, React, Backbone.js, Git, GitHub, SourceTree, Command Terminal, Bower, NPM, Gulp, PHP, Laravel, Sketch, Adobe Illustrator, Adobe Capture
             </p>
               <div className="resume-block">
                 <span className="resume-title">GameWisp, Inc.</span><span className="resume-title">Nashville, TN</span>
                 <p>February 2016 - August 2016</p>
                 <ul>
-                  <li>Redesigned entire site for September 2016 Launch of a new GameWisp Site</li>
-                  <li>Established Design and Front End techniques to make site more user friendly and readable</li>
-                  <li>Created Wire Frames with Sketch to create and communicate new designs and work flow</li>
-                  <li>Worked in Dev environment daily to help build the new and redesigned pages and components</li>
+                  <li>Redesigned entire site for September 2016 launch of a new GameWisp site</li>
+                  <li>Established design and Front End techniques to make site more user friendly</li>
+                  <li>Created wire frames with Sketch to create new page designs and work flow</li>
+                  <li>Worked in dev environment daily to help build the new and redesigned pages</li>
                 </ul>
               </div>
             <hr></hr>
@@ -57,6 +57,15 @@ class Resumepage extends React.Component{
                 <ul>
                   <li>Managed delinquent accounts and provided financial services for a diverse customer base</li>
                   <li>Analyzed accounts to allocate financial solutions for customers</li>
+                </ul>
+              </div>
+            <hr></hr>
+              <div className="resume-block">
+                <span className="resume-title">Professional Roofers</span><span className="resume-title">Franklin, TN</span>
+                <p>May - August 2011, January - May 2012</p>
+                <ul>
+                  <li>s sales techniques to develop a customer base for a small business</li>
+                  <li>Built and maintained customer relationships for the company</li>
                 </ul>
               </div>
             <hr></hr>

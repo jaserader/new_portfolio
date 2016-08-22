@@ -107,3 +107,143 @@
     }
   }
 }
+
+@media screen and (max-width: 1680px){
+  #contactpage{
+    .contact-container{
+      .contact-info{
+        @include span-columns(8);
+        @include shift(2);
+      }
+
+      .social-info{
+        @include span-columns(8);
+        @include shift(2);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px){
+  #contactpage{
+    .contact-container{
+      .contact-info{
+        @include span-columns(10);
+        @include shift(1);
+      }
+
+      .social-info{
+        @include span-columns(10);
+        @include shift(1);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px){
+  #contactpage{
+    .contact-container{
+
+      .h1{
+        @include span-columns(12);
+        font-size: 28px;
+        text-transform: uppercase;
+      }
+
+      footer{
+        span{
+          font-size: 14px;
+          padding-top: 10px;
+        }
+
+        nav{
+          a{
+            font-size: 24px;
+          }
+        }
+      }
+
+      .contact-info{
+        @include span-columns(10);
+        @include shift(1);
+
+        a{
+          @include span-columns(11);
+          @include shift(.5);
+          font-size: 18px;
+          text-decoration: none;
+          text-align: center;
+          margin-bottom: 25px;
+
+          &:last-of-type{
+            margin-bottom: 0px;
+          }
+
+          i{
+            font-size: 24px;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .social-info{
+        @include span-columns(10);
+        @include shift(1);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px){
+  #contactpage{
+    .contact-container{
+
+      .h1{
+        @include span-columns(12);
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+
+      footer{
+        span{
+          font-size: 14px;
+          padding-top: 10px;
+        }
+
+        nav{
+          a{
+            font-size: 24px;
+          }
+        }
+      }
+
+      .contact-info{
+        @include span-columns(10);
+        @include shift(1);
+
+        a{
+          @include span-columns(11);
+          @include shift(.5);
+          font-size: 14px;
+          text-decoration: none;
+          text-align: center;
+          margin-bottom: 25px;
+
+          &:last-of-type{
+            margin-bottom: 0px;
+          }
+
+          i{
+            font-size: 20px;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .social-info{
+        @include span-columns(10);
+        @include shift(1);
+      }
+    }
+  }
+}
