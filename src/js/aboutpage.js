@@ -28,11 +28,11 @@ class Aboutpage extends React.Component{
 
           <div className="about-content">
             <div className="column">
-              <div className="headshot w3-animate-bottom"></div>
+              <div className="headshot w3-animate-left"></div>
             </div>
 
             <div className="column">
-              <div className="about-block w3-animate-top">
+              <div className="about-block w3-animate-right">
                 <p>
                   I am a Nashville native who has always enjoyed technology. I have a degree in Logistics  from the University of Tennessee and had been working in I.T. the last two years before I took the leap of going to the Iron Yard for the Front-End Engineering course in the fall of 2015. I love technology, but I also love design. I decided to leave the I.T. world in order to pursue Web Development because I feel like I can satisfy both my love for technology, and my love for creativity in one field.
                 </p>
@@ -45,14 +45,6 @@ class Aboutpage extends React.Component{
 
           <footer>
             <span id="copyright">© 2016 Jase Rader</span>
-
-            <nav>
-              <a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i></a>
-              <a href="https://github.com/jaserader"><i className="fa fa-github-square"></i></a>
-              <a href="https://www.linkedin.com/in/jaserader"><i className="fa fa-linkedin-square"></i></a>
-              <a href="https://www.instagram.com/jase_rader/"><i className="fa fa-instagram"></i></a>
-              <a href="https://twitter.com/jaser316"><i className="fa fa-twitter"></i></a>
-            </nav>
           </footer>
         </div>
       </div>

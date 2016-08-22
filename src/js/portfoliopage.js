@@ -61,6 +61,10 @@ class Portfoliopage extends React.Component{
               <p>GitHub Repo: This is a project I did four weeks into The Iron Yard. We were told to make a pixel perfect replica of our personal GitHub repo list page. We had to use jQuery to make the project functional.</p>
             </div>
           </div>
+          
+          <footer>
+            <span id="copyright">© 2016 Jase Rader</span>
+          </footer>
         </div>
       </div>
 

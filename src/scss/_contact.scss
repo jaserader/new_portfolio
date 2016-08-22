@@ -80,31 +80,32 @@
       background: linear-gradient(to right, $white, $teal);
 
       span{
-        @include span-columns(6);
+        @include span-columns(12);
         font-size: 20px;
         padding-left: 25px;
-        padding-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         color: $link-color;
       }
 
-      nav{
-        @include span-columns(6);
-
-        a{
-          @include span-columns(2);
-          text-align: center;
-          font-size: 36px;
-          color: $link-color;
-
-          &:hover{
-            color: $link-hover-color;
-          }
-
-          &:first-of-type{
-            @include shift(2);
-          }
-        }
-      }
+      // nav{
+      //   @include span-columns(6);
+      //
+      //   a{
+      //     @include span-columns(2);
+      //     text-align: center;
+      //     font-size: 36px;
+      //     color: $link-color;
+      //
+      //     &:hover{
+      //       color: $link-hover-color;
+      //     }
+      //
+      //     &:first-of-type{
+      //       @include shift(2);
+      //     }
+      //   }
+      // }
     }
   }
 }
@@ -144,10 +145,11 @@
 @media screen and (max-width: 414px){
   #contactpage{
     .contact-container{
+      top: 50px;
 
       .h1{
         @include span-columns(12);
-        font-size: 28px;
+        font-size: 20px;
         text-transform: uppercase;
       }
 
