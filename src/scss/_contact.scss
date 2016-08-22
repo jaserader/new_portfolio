@@ -5,13 +5,14 @@
     @include span-columns(12);
     padding: 75px 0 50px 0;
     position: absolute;
-    top: 65px;
+    top: 200px;
     z-index: 1;
 
     .h1{
       @include span-columns(12);
-      font-size: 36px;
+      font-size: 44px;
       text-transform: uppercase;
+      font-family: 'Bungee Shade', cursive;
     }
 
     hr{
@@ -27,7 +28,7 @@
       padding: 30px 20px 30px 20px;
       border-radius: 3px;
       animation-duration: 2.0s;
-      box-shadow: 3px 3px 3px 3px #BABABA;
+      box-shadow: 2px 2px 2px 2px #BABABA;
 
       a{
         @include span-columns(6);
@@ -55,7 +56,7 @@
       border-radius: 3px;
       margin-top: 20px;
       animation-duration: 2.0s;
-      box-shadow: 3px 3px 3px 3px #BABABA;
+      box-shadow: 2px 2px 2px 2px #BABABA;
 
       a{
         @include span-columns(3);

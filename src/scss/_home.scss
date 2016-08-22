@@ -29,6 +29,7 @@
         margin-bottom: 0px;
         position: relative;
         top: -30px;
+        color: $blue;
       }
     }
   }
@@ -48,7 +49,7 @@
       padding: 0;
 
       a{
-        @include span-columns(2.4);
+        @include span-columns(2);
         text-align: center;
         font-size: 26px;
         font-weight: 300;
@@ -60,7 +61,7 @@
         }
 
         &:first-of-type{
-          @include shift(2.4);
+          @include shift(4);
         }
       }
     }

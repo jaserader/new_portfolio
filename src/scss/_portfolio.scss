@@ -10,6 +10,7 @@
 
     .blue{
       background: $blue;
+      margin-top: 100px;
 
       .screen-shot{
         img{
@@ -30,7 +31,7 @@
     }
 
     .purple{
-      background: $pink;
+      background: $purple;
 
       .screen-shot{
         img{
@@ -40,7 +41,7 @@
     }
 
     .green{
-      background: $teal;
+      background: $yellow;
       margin-top: 150px;
 
       .screen-shot{
@@ -55,7 +56,7 @@
       padding: 20px 0 20px 0;
       color: $white;
       border-radius: 3px;
-      box-shadow: 3px 3px 3px 3px #BABABA;
+      // box-shadow: 3px 3px 3px 3px #BABABA;
       animation-duration: 2.0s;
 
       &:first-of-type{

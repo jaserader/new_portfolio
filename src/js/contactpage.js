@@ -45,13 +45,6 @@ class Contactpage extends React.Component{
           <footer>
             <span id="copyright">© 2016 Jase Rader</span>
 
-            <nav>
-              <a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i></a>
-              <a href="https://github.com/jaserader"><i className="fa fa-github-square"></i></a>
-              <a href="https://www.linkedin.com/in/jaserader"><i className="fa fa-linkedin-square"></i></a>
-              <a href="https://www.instagram.com/jase_rader/"><i className="fa fa-instagram"></i></a>
-              <a href="https://twitter.com/jaser316"><i className="fa fa-twitter"></i></a>
-            </nav>
           </footer>
         </div>
       </div>
