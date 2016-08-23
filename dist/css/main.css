@@ -239,7 +239,7 @@ html {
         display: block;
         margin-right: 2.35765%;
         width: 100%;
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 25px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -485,6 +485,8 @@ html {
       border: 5px solid rgba(255, 255, 255, 0.8); }
       #portfoliopage .portfolio-container .portfolio-column .screen-shot:last-child {
         margin-right: 0; }
+      #portfoliopage .portfolio-container .portfolio-column .screen-shot:hover {
+        border-color: #46C9A7; }
       #portfoliopage .portfolio-container .portfolio-column .screen-shot img {
         float: left;
         display: block;
@@ -499,9 +501,12 @@ html {
       display: block;
       margin-right: 2.35765%;
       width: 91.4702%;
-      margin-left: 4.2649%; }
+      margin-left: 4.2649%;
+      color: #fff; }
       #portfoliopage .portfolio-container .portfolio-column .description:last-child {
         margin-right: 0; }
+      #portfoliopage .portfolio-container .portfolio-column .description:hover {
+        color: #46C9A7; }
       #portfoliopage .portfolio-container .portfolio-column .description p {
         float: left;
         display: block;
@@ -526,7 +531,7 @@ html {
       display: block;
       margin-right: 2.35765%;
       width: 100%;
-      font-size: 20px;
+      font-size: 16px;
       padding-left: 25px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -759,7 +764,7 @@ html {
     #resumepage .resume-container footer:last-child {
       margin-right: 0; }
     #resumepage .resume-container footer a {
-      font-size: 24px;
+      font-size: 20px;
       text-decoration: none;
       color: #323731; }
       #resumepage .resume-container footer a:hover {
@@ -1094,7 +1099,7 @@ html {
       display: block;
       margin-right: 2.35765%;
       width: 100%;
-      font-size: 20px;
+      font-size: 16px;
       padding-left: 25px;
       padding-top: 10px;
       padding-bottom: 10px;

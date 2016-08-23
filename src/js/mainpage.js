@@ -15,7 +15,7 @@ class Mainpage extends React.Component{
               <span className="h2">Front End Developer && UI Designer</span>
             </div>
 
-            <div className="nav w3-animate-right">
+            <div className="nav animated slideInRight">
               <ul>
                 <a className="nav-trigger" href="#aboutpage">About</a>
                 <a className="nav-trigger" href="#portfoliopage">Portfolio</a>

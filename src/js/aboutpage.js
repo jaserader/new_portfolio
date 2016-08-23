@@ -6,7 +6,7 @@ class Aboutpage extends React.Component{
 
   render(){
     return(
-      <div id="aboutpage" className="w3-animate-fade">
+      <div id="aboutpage" className="animated fadeIn">
         <div className="background-image"></div>
         <div className="background-filter"></div>
 
@@ -14,7 +14,7 @@ class Aboutpage extends React.Component{
           <a href="#"><div className="logo"></div></a>
 
           <div className="nav">
-            <ul id="slideout-nav" className="w3-animate-top">
+            <ul id="slideout-nav" className="animated slideInDown">
               <a href="">Home</a>
               <a href="#aboutpage">About</a>
               <a href="#portfoliopage">Portfolio</a>
@@ -28,11 +28,11 @@ class Aboutpage extends React.Component{
 
           <div className="about-content">
             <div className="column">
-              <div className="headshot w3-animate-left"></div>
+              <div className="headshot animated slideInLeft"></div>
             </div>
 
             <div className="column">
-              <div className="about-block w3-animate-right">
+              <div className="about-block animated slideInRight">
                 <p>
                   I am a Nashville native who has always enjoyed technology. I have a degree in Logistics  from the University of Tennessee and had been working in I.T. the last two years before I took the leap of going to the Iron Yard for the Front-End Engineering course in the fall of 2015. I love technology, but I also love design. I decided to leave the I.T. world in order to pursue Web Development because I feel like I can satisfy both my love for technology, and my love for creativity in one field.
                 </p>

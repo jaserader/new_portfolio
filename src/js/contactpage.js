@@ -14,7 +14,7 @@ class Contactpage extends React.Component{
           <a href="#"><div className="logo"></div></a>
 
           <div className="nav">
-            <ul id="slideout-nav" className="w3-animate-top">
+            <ul id="slideout-nav" className="animated slideInDown">
               <a href="">Home</a>
               <a href="#aboutpage">About</a>
               <a href="#portfoliopage">Portfolio</a>
@@ -26,14 +26,14 @@ class Contactpage extends React.Component{
 
 
         <div className="contact-container">
-          <div className="contact-info w3-animate-right">
+          <div className="contact-info animated slideInRight">
             <span className="h1">Contact:</span>
             <hr></hr>
             <a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i>jaserader@icloud.com</a>
             <a href="tel:615-838-5484"><i className="fa fa-mobile"></i>615-838-5484</a>
           </div>
 
-          <div className="social-info w3-animate-left">
+          <div className="social-info animated slideInLeft">
             <span className="h1">Check Me Out On:</span>
             <hr></hr>
             <a href="https://github.com/jaserader"><i className="fa fa-github-square"></i></a>

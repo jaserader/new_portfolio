@@ -14,7 +14,7 @@ class Resumepage extends React.Component{
           <a href="#"><div className="logo"></div></a>
 
           <div className="nav">
-            <ul id="slideout-nav" className="w3-animate-top">
+            <ul id="slideout-nav" className="animated slideInDown">
               <a href="">Home</a>
               <a href="#aboutpage">About</a>
               <a href="#portfoliopage">Portfolio</a>
@@ -27,7 +27,7 @@ class Resumepage extends React.Component{
 
         <div className="resume-container">
 
-          <div className="resume w3-animate-top">
+          <div className="resume animated slideInUp">
             <p id="skills">
               SKILLS:	HTML, CSS, SASS, JavaScript, jQuery, Knockout.js, Bourbon/Neat, React, Backbone.js, Git, GitHub, SourceTree, Command Terminal, Bower, NPM, Gulp, PHP, Laravel, Sketch, Adobe Illustrator, Adobe Capture
             </p>

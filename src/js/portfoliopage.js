@@ -14,7 +14,7 @@ class Portfoliopage extends React.Component{
           <a href="#"><div className="logo"></div></a>
 
           <div className="nav">
-            <ul id="slideout-nav" className="w3-animate-top">
+            <ul id="slideout-nav" className="animated slideInDown">
               <a href="">Home</a>
               <a href="#aboutpage">About</a>
               <a href="#portfoliopage">Portfolio</a>
@@ -26,40 +26,40 @@ class Portfoliopage extends React.Component{
 
 
         <div className="portfolio-container">
-          <div className="portfolio-column blue w3-animate-top">
-            <div className="screen-shot">
+          <div className="portfolio-column blue animated slideInDown">
+            <a href="https://gamewisp.com/" className="screen-shot">
               <img></img>
-            </div>
-            <div className="description">
+            </a>
+            <a href="https://gamewisp.com/" className="description">
               <p>GameWisp: This is a screen shot of the current landing page of GameWisp which I designed and built. The rest of the site the a designed and help build with launch around September 1, 2016.</p>
-            </div>
+            </a>
           </div>
 
-          <div className="portfolio-column orange w3-animate-bottom">
-            <div className="screen-shot">
+          <div className="portfolio-column orange animated slideInDown">
+            <a href="http://jaserader.github.io/week10_finalproject_goals/#/?_k=vdlcgy" className="screen-shot">
               <img></img>
-            </div>
-            <div className="description">
+            </a>
+            <a href="http://jaserader.github.io/week10_finalproject_goals/#/?_k=vdlcgy"className="description">
               <p>Goals: This is a simple social media site where a user can create an account and post personal life goals and be supported by other users that have accounts. This site was my final project at the Iron Yard. I worked on a team with another Front-End Developer and a Back-End Developer.</p>
-            </div>
+            </a>
           </div>
 
-          <div className="portfolio-column purple w3-animate-top">
-            <div className="screen-shot">
+          <div className="portfolio-column purple animated slideInDown">
+            <a href="http://jaserader.github.io/homework_week06_tuesday/"className="screen-shot">
               <img></img>
-            </div>
-            <div className="description">
+            </a>
+            <a href="http://jaserader.github.io/homework_week06_tuesday/" className="description">
               <p>Address Book: The purpose of this project was to use Backbone.js to communicate with an API hosted on Heroku. We were given creative freedom when styling this project.</p>
-            </div>
+            </a>
           </div>
 
-          <div className="portfolio-column green w3-animate-bottom">
-            <div className="screen-shot">
+          <div className="portfolio-column green animated slideInDown">
+            <a href="https://github.com/jaserader/homework_week04_tuesday" className="screen-shot">
               <img></img>
-            </div>
-            <div className="description">
+            </a>
+            <a href="https://github.com/jaserader/homework_week04_tuesday" className="description">
               <p>GitHub Repo: This is a project I did four weeks into The Iron Yard. We were told to make a pixel perfect replica of our personal GitHub repo list page. We had to use jQuery to make the project functional.</p>
-            </div>
+            </a>
           </div>
 
           <footer>
