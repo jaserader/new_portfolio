@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute } from 'react-router';
-import { hashHistory } from 'react-router'
+import { hashHistory } from 'react-router';
 
 import Homepage from "./homepage";
 import Mainpage from "./mainpage";
