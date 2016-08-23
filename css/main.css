@@ -259,7 +259,7 @@ html {
 
 @media screen and (max-width: 1440px) {
   #aboutpage .about-container {
-    padding: 50px 0 50px 0; }
+    padding: 25px 0 50px 0; }
     #aboutpage .about-container .about-content {
       float: left;
       display: block;
@@ -1122,7 +1122,7 @@ html {
 
 @media screen and (max-width: 1440px) {
   #contactpage .contact-container {
-    top: 50px; } }
+    top: 25px; } }
 
 @media screen and (max-width: 950px) {
   #contactpage .contact-container .contact-info {
