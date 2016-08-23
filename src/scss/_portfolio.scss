@@ -138,6 +138,13 @@
   }
 }
 
+@media screen and (max-width: 1440px){
+  #portfoliopage{
+    .portfolio-container{
+      top: 25px;
+    }
+  }
+}
 @media screen and (max-width: 1150px){
   #portfoliopage{
     .portfolio-container{

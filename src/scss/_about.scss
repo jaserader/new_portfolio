@@ -87,7 +87,7 @@
 @media screen and (max-width: 1440px){
   #aboutpage{
     .about-container{
-      padding: 125px 0 50px 0;
+      padding: 50px 0 50px 0;
 
       .about-content{
         @include span-columns(10);

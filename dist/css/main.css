@@ -259,7 +259,7 @@ html {
 
 @media screen and (max-width: 1440px) {
   #aboutpage .about-container {
-    padding: 125px 0 50px 0; }
+    padding: 50px 0 50px 0; }
     #aboutpage .about-container .about-content {
       float: left;
       display: block;
@@ -556,6 +556,10 @@ html {
       margin-left: 17.05961%; }
     #portfoliopage .portfolio-container .portfolio-column:nth-of-type(3n) {
       margin-left: 17.05961%; } }
+
+@media screen and (max-width: 1440px) {
+  #portfoliopage .portfolio-container {
+    top: 25px; } }
 
 @media screen and (max-width: 1150px) {
   #portfoliopage .portfolio-container {
@@ -1115,6 +1119,10 @@ html {
     margin-left: 17.05961%; }
     #contactpage .contact-container .social-info:last-child {
       margin-right: 0; } }
+
+@media screen and (max-width: 1440px) {
+  #contactpage .contact-container {
+    top: 50px; } }
 
 @media screen and (max-width: 950px) {
   #contactpage .contact-container .contact-info {

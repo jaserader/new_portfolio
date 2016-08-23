@@ -128,6 +128,14 @@
   }
 }
 
+@media screen and (max-width: 1440px){
+  #contactpage{
+    .contact-container{
+      top: 50px;
+    }
+  }
+}
+
 @media screen and (max-width: 950px){
   #contactpage{
     .contact-container{
