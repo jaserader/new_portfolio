@@ -64,7 +64,7 @@ class Resumepage extends React.Component{
                 <span className="resume-title">Professional Roofers</span><span className="resume-title">Franklin, TN</span>
                 <p>May - August 2011, January - May 2012</p>
                 <ul>
-                  <li>s sales techniques to develop a customer base for a small business</li>
+                  <li>Aquired sales techniques to develop a customer base for a small business</li>
                   <li>Built and maintained customer relationships for the company</li>
                 </ul>
               </div>
