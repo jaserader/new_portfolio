@@ -15,8 +15,6 @@
   ],
   "dependencies": {},
   "description": "",
-  "main": [
-    "dist/css/w3.css"
-  ],
+  "main":,
   "homepage": "https://github.com/jaserader/new_portfolio"
 }

@@ -7,7 +7,7 @@ class Mainpage extends React.Component{
   render(){
     return(
         <div id="mainpage">
-          <div className="background-image w3-animate-bottom"></div>
+          <div className="background-image animated slideInUp"></div>
 
           <div className="landing-content">
             <div className="name-container">
