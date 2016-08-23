@@ -20,7 +20,8 @@
     "gulp-jscs": "^1.6.0",
     "gulp-sass": "^2.0.4",
     "neat": "^1.2.2",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "w3c-css": "^2.0.0"
   },
   "devDependencies": {
     "gulp-gh-pages": "^0.5.2"
