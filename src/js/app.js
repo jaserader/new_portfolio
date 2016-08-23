@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute } from 'react-router';
+import { hashHistory } from 'react-router'
 
 import Homepage from "./homepage";
 import Mainpage from "./mainpage";
@@ -21,7 +22,7 @@ class App extends React.Component {
 };
 
 ReactDOM.render((
-  <Router>
+  <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Mainpage} />
     <Route path="aboutpage" component={Aboutpage} />
