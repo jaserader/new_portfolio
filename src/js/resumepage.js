@@ -29,7 +29,7 @@ class Resumepage extends React.Component{
 
           <div className="resume animated slideInUp">
             <p id="skills">
-              SKILLS:	HTML, CSS, SASS, JavaScript, jQuery, Knockout.js, Bourbon/Neat, React, Backbone.js, Git, GitHub, SourceTree, Command Terminal, Bower, NPM, Gulp, PHP, Laravel, Sketch, Adobe Illustrator, Adobe Capture
+              SKILLS:	HTML, CSS, SASS, JavaScript, jQuery, Knockout.js, Bourbon/Neat, React, Backbone.js, Git, GitHub, SourceTree, Command Terminal, Bower, NPM, Gulp, PHP, Docker, Laravel, Sketch, Adobe Illustrator, Adobe Capture
             </p>
               <div className="resume-block">
                 <span className="resume-title">GameWisp, Inc. - <span>Software Developer II & UI Designer</span></span><span className="resume-title">Nashville, TN</span>
