@@ -8,14 +8,14 @@
     top: 40px;
     z-index: 1;
 
-    .blue{
-      background: $blue;
+    .blue1{
+      background: $blue1;
       margin-top: 100px;
 
       .screen-shot{
         &:hover{
           transition: all 0.5s;
-          border-color: $yellow;
+          border-color: $gray;
         }
 
         img{
@@ -26,13 +26,13 @@
       .description{
         &:hover{
           transition: all 0.5s;
-          color: $yellow;
+          color: $gray;
         }
       }
     }
 
-    .orange{
-      background: $orange;
+    .blue2{
+      background: $blue2;
       margin-top: 300px;
 
       .screen-shot{
@@ -54,14 +54,14 @@
       }
     }
 
-    .purple{
-      background: $purple;
+    .blue3{
+      background: $blue3;
 
 
       .screen-shot{
         &:hover{
           transition: all 0.5s;
-          border-color: $teal;
+          border-color: $gray;
         }
 
         img{
@@ -72,19 +72,19 @@
       .description{
         &:hover{
           transition: all 0.5s;
-          color: $teal;
+          color: $gray;
         }
       }
     }
 
-    .yellow{
-      background: $yellow;
+    .blue4{
+      background: $blue4;
       margin-top: 150px;
 
       .screen-shot{
         &:hover{
           transition: all 0.5s;
-          border-color: $blue;
+          border-color: $gray;
         }
 
         img{
@@ -131,7 +131,7 @@
       .description{
         @include span-columns(11);
         @include shift(.5);
-        color: #fff;
+        color: $white;
         padding-bottom: 10px;
 
         p{

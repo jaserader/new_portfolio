@@ -26,16 +26,16 @@ class Portfoliopage extends React.Component{
 
 
         <div className="portfolio-container">
-          <div className="portfolio-column blue animated slideInDown">
+          <div className="portfolio-column blue1 animated slideInDown">
             <a href="https://gamewisp.com/" className="screen-shot">
               <img></img>
             </a>
             <a href="https://gamewisp.com/" className="description">
-              <p>GameWisp: This is a screen shot of the current landing page of GameWisp which I designed and built. The rest of the site the a designed and help build with launch around September 1, 2016.</p>
+              <p>GameWisp: This is a screen shot of the current landing page of GameWisp which I designed and built. The rest of the site I designed and help build with launch around September 1, 2016.</p>
             </a>
           </div>
 
-          <div className="portfolio-column orange animated slideInDown">
+          <div className="portfolio-column blue2 animated slideInDown">
             <a href="http://jaserader.github.io/week10_finalproject_goals/#/?_k=vdlcgy" className="screen-shot">
               <img></img>
             </a>
@@ -44,7 +44,7 @@ class Portfoliopage extends React.Component{
             </a>
           </div>
 
-          <div className="portfolio-column purple animated slideInDown">
+          <div className="portfolio-column blue3 animated slideInDown">
             <a href="http://jaserader.github.io/homework_week06_tuesday/"className="screen-shot">
               <img></img>
             </a>
@@ -53,7 +53,7 @@ class Portfoliopage extends React.Component{
             </a>
           </div>
 
-          <div className="portfolio-column yellow animated slideInDown">
+          <div className="portfolio-column blue4 animated slideInDown">
             <a href="https://github.com/jaserader/homework_week04_tuesday" className="screen-shot">
               <img></img>
             </a>
