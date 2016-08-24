@@ -32,7 +32,7 @@ class Resumepage extends React.Component{
               SKILLS:	HTML, CSS, SASS, JavaScript, jQuery, Knockout.js, Bourbon/Neat, React, Backbone.js, Git, GitHub, SourceTree, Command Terminal, Bower, NPM, Gulp, PHP, Laravel, Sketch, Adobe Illustrator, Adobe Capture
             </p>
               <div className="resume-block">
-                <span className="resume-title">GameWisp, Inc.</span><span className="resume-title">Nashville, TN</span>
+                <span className="resume-title">GameWisp, Inc. - <span>Software Developer II & UI Designer</span></span><span className="resume-title">Nashville, TN</span>
                 <p>February 2016 - August 2016</p>
                 <ul>
                   <li>Redesigned entire site for September 2016 launch of a new GameWisp site</li>

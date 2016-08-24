@@ -43,6 +43,11 @@
           font-size: 20px;
           text-transform: uppercase;
 
+          span{
+            text-transform: none;
+            font-size: 18px;
+          }
+
           &:last-of-type{
             @include span-columns(3.8);
             text-align: right;
@@ -187,6 +192,10 @@
             font-size: 18px;
             text-transform: uppercase;
 
+            span{
+              font-size: 14px;
+            }
+
             &:last-of-type{
               @include span-columns(3.8);
               text-align: right;
@@ -248,6 +257,7 @@
             font-size: 14px;
             text-align: center;
             font-weight: 500;
+            margin-bottom: 10px;
 
             &:last-of-type{
               @include span-columns(12);
