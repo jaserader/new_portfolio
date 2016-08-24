@@ -173,7 +173,7 @@
       .portfolio-column{
         @include span-columns(4);
         @include omega(2n);
-        // height: 350px;
+        height: 350px;
         margin-bottom: 20px;
 
 
@@ -278,7 +278,7 @@
         @include span-columns(10);
         @include shift(1);
         @include omega(1n);
-        height: 415px;
+        height: auto;
         margin-bottom: 20px;
 
 

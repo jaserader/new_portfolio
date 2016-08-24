@@ -568,6 +568,7 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
+    height: 350px;
     margin-bottom: 20px; }
     #portfoliopage .portfolio-container .portfolio-column:last-child {
       margin-right: 0; }
@@ -657,7 +658,7 @@ html {
       margin-right: 2.35765%;
       width: 82.94039%;
       margin-left: 8.5298%;
-      height: 415px;
+      height: auto;
       margin-bottom: 20px; }
       #portfoliopage .portfolio-container .portfolio-column:last-child {
         margin-right: 0; }
