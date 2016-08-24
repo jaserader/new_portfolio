@@ -558,10 +558,10 @@ html {
         margin-right: 0; }
 
 @media screen and (max-width: 1500px) {
-  #portfoliopage .portfolio-container .orange,
-  #portfoliopage .portfolio-container .green,
-  #portfoliopage .portfolio-container .blue,
-  #portfoliopage .portfolio-container .yellow {
+  #portfoliopage .portfolio-container .blue1,
+  #portfoliopage .portfolio-container .blue2,
+  #portfoliopage .portfolio-container .blue3,
+  #portfoliopage .portfolio-container .blue4 {
     margin-top: 0px; }
   #portfoliopage .portfolio-container .portfolio-column {
     float: left;
