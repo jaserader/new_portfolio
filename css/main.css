@@ -50,7 +50,7 @@ html {
         margin-top: 0px;
         margin-bottom: 0px;
         position: relative;
-        color: #469AF9; }
+        color: #FFAE7E; }
         #mainpage .landing-content .name-container .h2:last-child {
           margin-right: 0; }
   #mainpage .nav {
@@ -88,7 +88,7 @@ html {
           margin-right: 0; }
         #mainpage .nav ul a:hover {
           transition: all 0.35s;
-          color: #FD8414; }
+          color: #fff; }
         #mainpage .nav ul a:first-of-type {
           margin-left: 34.11922%; }
 
@@ -203,7 +203,7 @@ html {
         display: block;
         margin-right: 2.35765%;
         width: 100%;
-        background: #F48800;
+        background: #FFAE7E;
         color: #fff;
         padding: 35px;
         border-radius: 3px;
@@ -438,49 +438,49 @@ html {
   z-index: 1; }
   #portfoliopage .portfolio-container:last-child {
     margin-right: 0; }
-  #portfoliopage .portfolio-container .blue {
-    background: #469AF9;
+  #portfoliopage .portfolio-container .blue1 {
+    background: #76A3DD;
     margin-top: 100px; }
-    #portfoliopage .portfolio-container .blue .screen-shot:hover {
-      transition: all 0.5s;
-      border-color: #D6C500; }
-    #portfoliopage .portfolio-container .blue .screen-shot img {
-      background-image: url("../img/gamewisp.png"); }
-    #portfoliopage .portfolio-container .blue .description:hover {
-      transition: all 0.5s;
-      color: #D6C500; }
-  #portfoliopage .portfolio-container .orange {
-    background: #F48800;
-    margin-top: 300px; }
-    #portfoliopage .portfolio-container .orange .screen-shot:hover {
+    #portfoliopage .portfolio-container .blue1 .screen-shot:hover {
       transition: all 0.5s;
       border-color: #323731; }
-    #portfoliopage .portfolio-container .orange .screen-shot img {
-      background-image: url("../img/goals_screen.png"); }
-    #portfoliopage .portfolio-container .orange .description:hover {
+    #portfoliopage .portfolio-container .blue1 .screen-shot img {
+      background-image: url("../img/gamewisp.png"); }
+    #portfoliopage .portfolio-container .blue1 .description:hover {
       transition: all 0.5s;
       color: #323731; }
-  #portfoliopage .portfolio-container .purple {
-    background: #3E45A0; }
-    #portfoliopage .portfolio-container .purple .screen-shot:hover {
+  #portfoliopage .portfolio-container .blue2 {
+    background: #5186CA;
+    margin-top: 300px; }
+    #portfoliopage .portfolio-container .blue2 .screen-shot:hover {
       transition: all 0.5s;
-      border-color: #46C9A7; }
-    #portfoliopage .portfolio-container .purple .screen-shot img {
+      border-color: #323731; }
+    #portfoliopage .portfolio-container .blue2 .screen-shot img {
+      background-image: url("../img/goals_screen.png"); }
+    #portfoliopage .portfolio-container .blue2 .description:hover {
+      transition: all 0.5s;
+      color: #323731; }
+  #portfoliopage .portfolio-container .blue3 {
+    background: #336DB7; }
+    #portfoliopage .portfolio-container .blue3 .screen-shot:hover {
+      transition: all 0.5s;
+      border-color: #323731; }
+    #portfoliopage .portfolio-container .blue3 .screen-shot img {
       background-image: url("../img/addressbook_screen.png"); }
-    #portfoliopage .portfolio-container .purple .description:hover {
+    #portfoliopage .portfolio-container .blue3 .description:hover {
       transition: all 0.5s;
-      color: #46C9A7; }
-  #portfoliopage .portfolio-container .yellow {
-    background: #D6C500;
+      color: #323731; }
+  #portfoliopage .portfolio-container .blue4 {
+    background: #1152A6;
     margin-top: 150px; }
-    #portfoliopage .portfolio-container .yellow .screen-shot:hover {
+    #portfoliopage .portfolio-container .blue4 .screen-shot:hover {
       transition: all 0.5s;
-      border-color: #469AF9; }
-    #portfoliopage .portfolio-container .yellow .screen-shot img {
+      border-color: #323731; }
+    #portfoliopage .portfolio-container .blue4 .screen-shot img {
       background-image: url("../img/github_repo.png"); }
-    #portfoliopage .portfolio-container .yellow .description:hover {
+    #portfoliopage .portfolio-container .blue4 .description:hover {
       transition: all 0.5s;
-      color: #469AF9; }
+      color: #5186CA; }
   #portfoliopage .portfolio-container .portfolio-column {
     float: left;
     display: block;
@@ -689,7 +689,7 @@ html {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    background: #3E45A0;
+    background: #5186CA;
     color: #fff;
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
@@ -786,7 +786,7 @@ html {
       text-decoration: none;
       color: #323731; }
       #resumepage .resume-container footer a:hover {
-        color: #FD8414; }
+        color: #fff; }
       #resumepage .resume-container footer a i {
         font-size: 36px;
         animation-iteration-count: 5; }
@@ -1050,7 +1050,7 @@ html {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    background: #F48800;
+    background: #FFAE7E;
     color: #fff;
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
@@ -1082,7 +1082,7 @@ html {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    background: #469AF9;
+    background: #5186CA;
     color: #fff;
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
@@ -1365,7 +1365,7 @@ html {
           float: none; }
           #app header .nav #slideout-nav a:hover {
             transition: all 0.35s;
-            color: #FD8414; }
+            color: #fff; }
           #app header .nav #slideout-nav a:first-of-type {
             margin-left: 17.05961%; }
 
