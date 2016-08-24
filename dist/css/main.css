@@ -353,10 +353,11 @@ html {
             margin-right: 0; }
       #aboutpage .about-container .about-content .headshot {
         width: 380px;
-        height: 280px;
+        height: 300px;
         left: 0px; }
       #aboutpage .about-container .about-content .about-block {
-        height: 1000px; }
+        height: none;
+        padding-bottom: 20px; }
     #aboutpage .about-container footer span {
       font-size: 12px; } }
 
@@ -388,10 +389,9 @@ html {
             margin-right: 0; }
       #aboutpage .about-container .about-content .headshot {
         width: 342px;
-        height: 280px;
+        height: 300px;
         left: 0px; }
       #aboutpage .about-container .about-content .about-block {
-        height: 1000px;
         margin-bottom: 20px; } }
 
 @media screen and (max-width: 320px) {
@@ -422,10 +422,8 @@ html {
             margin-right: 0; }
       #aboutpage .about-container .about-content .headshot {
         width: 305px;
-        height: 280px;
-        left: 0px; }
-      #aboutpage .about-container .about-content .about-block {
-        height: 1200px; } }
+        height: 300px;
+        left: 0px; } }
 
 #portfoliopage .portfolio-container {
   float: left;

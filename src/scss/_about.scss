@@ -179,12 +179,13 @@
 
         .headshot{
           width: 380px;
-          height: 280px;
+          height: 300px;
           left: 0px;
         }
 
         .about-block{
-          height: 1000px;
+          height: none;
+          padding-bottom: 20px;
         }
       }
 
@@ -217,12 +218,12 @@
 
         .headshot{
           width: 342px;
-          height: 280px;
+          height: 300px;
           left: 0px;
         }
 
         .about-block{
-          height: 1000px;
+          // height: 1000px;
           margin-bottom: 20px;
         }
       }
@@ -250,12 +251,12 @@
 
         .headshot{
           width: 305px;
-          height: 280px;
+          height: 300px;
           left: 0px;
         }
 
         .about-block{
-          height: 1200px;
+          // height: 1200px;
         }
       }
     }
