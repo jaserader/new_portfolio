@@ -27,7 +27,7 @@
       color: $white;
       padding: 30px 20px 30px 20px;
       border-radius: 3px;
-      animation-duration: 2.0s;
+      animation-duration: 1.0s;
       box-shadow: 2px 2px 2px 2px #BABABA;
 
       a{
@@ -37,8 +37,11 @@
         text-align: center;
         color: $white;
 
+
         &:hover{
-          color: $link-color;
+          transition: all 0.5s ease;
+          font-size: 26px;
+          color: $gray;
         }
 
         i{
@@ -56,20 +59,26 @@
       padding: 30px 20px 30px 20px;
       border-radius: 3px;
       margin-top: 20px;
-      animation-duration: 2.0s;
+      animation-duration: 1.0s;
       box-shadow: 2px 2px 2px 2px #BABABA;
 
       a{
         @include span-columns(3);
         text-align: center;
         color: $white;
+        height: 44px;
 
         &:hover{
-          color: $link-color;
+          color: $gray;
         }
 
         i{
           font-size: 36px;
+
+          &:hover{
+            transition: all 0.5s ease;
+            font-size: 44px;
+          }
         }
       }
     }
@@ -78,7 +87,6 @@
       @include span-columns(12);
       position: fixed;
       bottom: 0;
-      padding: 5px 0 5px 0;
       background: linear-gradient(to right, $white, $teal);
 
       span{
@@ -87,27 +95,8 @@
         padding-left: 25px;
         padding-top: 10px;
         padding-bottom: 10px;
-        color: $link-color;
+        color: $gray;
       }
-
-      // nav{
-      //   @include span-columns(6);
-      //
-      //   a{
-      //     @include span-columns(2);
-      //     text-align: center;
-      //     font-size: 36px;
-      //     color: $link-color;
-      //
-      //     &:hover{
-      //       color: $link-hover-color;
-      //     }
-      //
-      //     &:first-of-type{
-      //       @include shift(2);
-      //     }
-      //   }
-      // }
     }
   }
 }

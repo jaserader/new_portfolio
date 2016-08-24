@@ -53,7 +53,7 @@ class Portfoliopage extends React.Component{
             </a>
           </div>
 
-          <div className="portfolio-column green animated slideInDown">
+          <div className="portfolio-column yellow animated slideInDown">
             <a href="https://github.com/jaserader/homework_week04_tuesday" className="screen-shot">
               <img></img>
             </a>

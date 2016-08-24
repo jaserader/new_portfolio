@@ -62,9 +62,8 @@ html {
     opacity: .85;
     position: fixed;
     bottom: 0;
-    animation-duration: 2.75s;
-    border-top: 5px solid rgba(255, 255, 255, 0.1);
-    animation-iteration-count: 1; }
+    animation-duration: 1.25s;
+    border-top: 5px solid rgba(255, 255, 255, 0.1); }
     #mainpage .nav:last-child {
       margin-right: 0; }
     #mainpage .nav ul {
@@ -88,6 +87,7 @@ html {
         #mainpage .nav ul a:last-child {
           margin-right: 0; }
         #mainpage .nav ul a:hover {
+          transition: all 0.35s;
           color: #FD8414; }
         #mainpage .nav ul a:first-of-type {
           margin-left: 34.11922%; }
@@ -196,7 +196,7 @@ html {
         height: 520px;
         border-radius: 3px;
         opacity: none;
-        animation-duration: 2.0s;
+        animation-duration: 1.0s;
         box-shadow: 2px 2px 2px 2px #BABABA; }
       #aboutpage .about-container .about-content .about-block {
         float: left;
@@ -207,7 +207,7 @@ html {
         color: #fff;
         padding: 35px;
         border-radius: 3px;
-        animation-duration: 2.0s;
+        animation-duration: 1.0s;
         box-shadow: 2px 2px 2px 2px #BABABA;
         height: 520px; }
         #aboutpage .about-container .about-content .about-block:last-child {
@@ -219,8 +219,7 @@ html {
         width: 100%;
         font-size: 22px;
         margin: 0 0 30px 0;
-        text-align: justify;
-        font-family: 'Ravi Prakash', cursive; }
+        text-align: justify; }
         #aboutpage .about-container .about-content p:last-child {
           margin-right: 0; }
     #aboutpage .about-container footer {
@@ -230,7 +229,6 @@ html {
       width: 100%;
       position: fixed;
       bottom: 0;
-      padding: 5px 0 5px 0;
       background: linear-gradient(to right, #fff, #46C9A7); }
       #aboutpage .about-container footer:last-child {
         margin-right: 0; }
@@ -436,29 +434,53 @@ html {
   width: 100%;
   padding: 75px 0 50px 0;
   position: absolute;
-  top: 65px;
+  top: 40px;
   z-index: 1; }
   #portfoliopage .portfolio-container:last-child {
     margin-right: 0; }
   #portfoliopage .portfolio-container .blue {
     background: #469AF9;
     margin-top: 100px; }
+    #portfoliopage .portfolio-container .blue .screen-shot:hover {
+      transition: all 0.5s;
+      border-color: #D6C500; }
     #portfoliopage .portfolio-container .blue .screen-shot img {
       background-image: url("../img/gamewisp.png"); }
+    #portfoliopage .portfolio-container .blue .description:hover {
+      transition: all 0.5s;
+      color: #D6C500; }
   #portfoliopage .portfolio-container .orange {
     background: #F48800;
     margin-top: 300px; }
+    #portfoliopage .portfolio-container .orange .screen-shot:hover {
+      transition: all 0.5s;
+      border-color: #323731; }
     #portfoliopage .portfolio-container .orange .screen-shot img {
       background-image: url("../img/goals_screen.png"); }
+    #portfoliopage .portfolio-container .orange .description:hover {
+      transition: all 0.5s;
+      color: #323731; }
   #portfoliopage .portfolio-container .purple {
     background: #3E45A0; }
+    #portfoliopage .portfolio-container .purple .screen-shot:hover {
+      transition: all 0.5s;
+      border-color: #46C9A7; }
     #portfoliopage .portfolio-container .purple .screen-shot img {
       background-image: url("../img/addressbook_screen.png"); }
-  #portfoliopage .portfolio-container .green {
+    #portfoliopage .portfolio-container .purple .description:hover {
+      transition: all 0.5s;
+      color: #46C9A7; }
+  #portfoliopage .portfolio-container .yellow {
     background: #D6C500;
     margin-top: 150px; }
-    #portfoliopage .portfolio-container .green .screen-shot img {
+    #portfoliopage .portfolio-container .yellow .screen-shot:hover {
+      transition: all 0.5s;
+      border-color: #469AF9; }
+    #portfoliopage .portfolio-container .yellow .screen-shot img {
       background-image: url("../img/github_repo.png"); }
+    #portfoliopage .portfolio-container .yellow .description:hover {
+      transition: all 0.5s;
+      color: #469AF9; }
   #portfoliopage .portfolio-container .portfolio-column {
     float: left;
     display: block;
@@ -467,7 +489,7 @@ html {
     padding: 20px 0 20px 0;
     color: #fff;
     border-radius: 3px;
-    animation-duration: 2.0s; }
+    animation-duration: 1.0s; }
     #portfoliopage .portfolio-container .portfolio-column:last-child {
       margin-right: 0; }
     #portfoliopage .portfolio-container .portfolio-column:first-of-type {
@@ -485,8 +507,6 @@ html {
       border: 5px solid rgba(255, 255, 255, 0.8); }
       #portfoliopage .portfolio-container .portfolio-column .screen-shot:last-child {
         margin-right: 0; }
-      #portfoliopage .portfolio-container .portfolio-column .screen-shot:hover {
-        border-color: #46C9A7; }
       #portfoliopage .portfolio-container .portfolio-column .screen-shot img {
         float: left;
         display: block;
@@ -502,11 +522,10 @@ html {
       margin-right: 2.35765%;
       width: 91.4702%;
       margin-left: 4.2649%;
-      color: #fff; }
+      color: #fff;
+      padding-bottom: 10px; }
       #portfoliopage .portfolio-container .portfolio-column .description:last-child {
         margin-right: 0; }
-      #portfoliopage .portfolio-container .portfolio-column .description:hover {
-        color: #46C9A7; }
       #portfoliopage .portfolio-container .portfolio-column .description p {
         float: left;
         display: block;
@@ -522,7 +541,6 @@ html {
     width: 100%;
     position: fixed;
     bottom: 0;
-    padding: 5px 0 5px 0;
     background: linear-gradient(to right, #fff, #46C9A7); }
     #portfoliopage .portfolio-container footer:last-child {
       margin-right: 0; }
@@ -542,14 +560,14 @@ html {
 @media screen and (max-width: 1500px) {
   #portfoliopage .portfolio-container .orange,
   #portfoliopage .portfolio-container .green,
-  #portfoliopage .portfolio-container .blue {
+  #portfoliopage .portfolio-container .blue,
+  #portfoliopage .portfolio-container .yellow {
     margin-top: 0px; }
   #portfoliopage .portfolio-container .portfolio-column {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    height: 350px;
     margin-bottom: 20px; }
     #portfoliopage .portfolio-container .portfolio-column:last-child {
       margin-right: 0; }
@@ -675,7 +693,7 @@ html {
     color: #fff;
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
-    animation-duration: 2.0s; }
+    animation-duration: 1.0s; }
     #resumepage .resume-container .resume:last-child {
       margin-right: 0; }
     #resumepage .resume-container .resume #skills {
@@ -770,7 +788,8 @@ html {
       #resumepage .resume-container footer a:hover {
         color: #FD8414; }
       #resumepage .resume-container footer a i {
-        font-size: 36px; }
+        font-size: 36px;
+        animation-iteration-count: 5; }
 
 @media screen and (max-width: 1680px) {
   #resumepage .resume-container .resume {
@@ -1035,7 +1054,7 @@ html {
     color: #fff;
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
-    animation-duration: 2.0s;
+    animation-duration: 1.0s;
     box-shadow: 2px 2px 2px 2px #BABABA; }
     #contactpage .contact-container .contact-info:last-child {
       margin-right: 0; }
@@ -1051,6 +1070,8 @@ html {
       #contactpage .contact-container .contact-info a:last-child {
         margin-right: 0; }
       #contactpage .contact-container .contact-info a:hover {
+        transition: all 0.5s ease;
+        font-size: 26px;
         color: #323731; }
       #contactpage .contact-container .contact-info a i {
         font-size: 30px;
@@ -1066,7 +1087,7 @@ html {
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
     margin-top: 20px;
-    animation-duration: 2.0s;
+    animation-duration: 1.0s;
     box-shadow: 2px 2px 2px 2px #BABABA; }
     #contactpage .contact-container .social-info:last-child {
       margin-right: 0; }
@@ -1076,13 +1097,17 @@ html {
       margin-right: 2.35765%;
       width: 23.23176%;
       text-align: center;
-      color: #fff; }
+      color: #fff;
+      height: 44px; }
       #contactpage .contact-container .social-info a:last-child {
         margin-right: 0; }
       #contactpage .contact-container .social-info a:hover {
         color: #323731; }
       #contactpage .contact-container .social-info a i {
         font-size: 36px; }
+        #contactpage .contact-container .social-info a i:hover {
+          transition: all 0.5s ease;
+          font-size: 44px; }
   #contactpage .contact-container footer {
     float: left;
     display: block;
@@ -1090,7 +1115,6 @@ html {
     width: 100%;
     position: fixed;
     bottom: 0;
-    padding: 5px 0 5px 0;
     background: linear-gradient(to right, #fff, #46C9A7); }
     #contactpage .contact-container footer:last-child {
       margin-right: 0; }
@@ -1270,7 +1294,7 @@ html {
     height: 100vh;
     position: fixed;
     z-index: -10000;
-    animation-duration: 3.25s; }
+    animation-duration: 1.75s; }
     #app .background-image:last-child {
       margin-right: 0; }
   #app .background-filter {
@@ -1293,7 +1317,6 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 5px 0 5px 0;
     background: linear-gradient(to right, #fff, #46C9A7);
     position: fixed;
     top: 0;
@@ -1313,9 +1336,10 @@ html {
         margin-left: 6.39735%;
         background-image: url("../img/Jaselogo_2.png");
         background-size: cover;
-        width: 50px;
-        height: 50px;
-        margin-top: 5px; }
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 8px; }
     #app header .nav {
       float: left;
       display: block;
@@ -1329,64 +1353,87 @@ html {
         margin-right: 2.35765%;
         width: 100%;
         padding: 0;
-        animation-duration: 1.25s; }
+        animation-duration: 1.00s; }
         #app header .nav #slideout-nav:last-child {
           margin-right: 0; }
         #app header .nav #slideout-nav a {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 14.70196%;
-          font-size: 20px;
-          color: #323731; }
-          #app header .nav #slideout-nav a:last-child {
-            margin-right: 0; }
+          font-size: 16px;
+          color: #323731;
+          padding: 0 25px 0 25px;
+          display: inline-block;
+          width: auto;
+          float: none; }
           #app header .nav #slideout-nav a:hover {
+            transition: all 0.35s;
             color: #FD8414; }
           #app header .nav #slideout-nav a:first-of-type {
             margin-left: 17.05961%; }
+
+@media screen and (max-width: 1437px) {
+  #app header .nav #slideout-nav a:first-of-type {
+    margin-left: 4.2649%; } }
+
+@media screen and (max-width: 1227px) {
+  #app header .nav #slideout-nav a {
+    padding: 0 15px 0 15px; }
+    #app header .nav #slideout-nav a:first-of-type {
+      margin-left: 8.5298%; } }
 
 @media screen and (max-width: 1150px) {
   #app header .nav #slideout-nav a {
     font-size: 16px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1038px) {
+  #app header .nav #slideout-nav a {
+    padding: 0 15px 0 15px; }
+    #app header .nav #slideout-nav a:first-of-type {
+      margin-left: 0%; } }
+
+@media screen and (max-width: 940px) {
   #app header a {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 14.70196%; }
     #app header a:last-child {
       margin-right: 0; }
   #app header .nav {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%; }
+    width: 82.94039%; }
     #app header .nav:last-child {
       margin-right: 0; }
     #app header .nav #slideout-nav a {
-      font-size: 16px; } }
+      padding: 0 15px 0 15px; }
+      #app header .nav #slideout-nav a:first-of-type {
+        margin-left: 23.88345%; } }
+
+@media screen and (max-width: 768px) {
+  #app header .nav #slideout-nav a {
+    font-size: 14px; } }
 
 @media screen and (max-width: 414px) {
   #app header a {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 6.17215%; }
+    width: 8.3046%; }
     #app header a:last-child {
       margin-right: 0; }
   #app header .nav {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 91.4702%;
+    width: 89.33774%;
     margin-top: 3px; }
     #app header .nav:last-child {
       margin-right: 0; }
     #app header .nav #slideout-nav a {
-      font-size: 14px; } }
+      font-size: 12px;
+      padding: 0 2px 0 2px; } }
 
 @media screen and (max-width: 320px) {
   #app header .nav #slideout-nav a {
-    font-size: 12px; } }
+    font-size: 11px;
+    padding: 0 0px 0 0px; } }

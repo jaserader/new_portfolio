@@ -80,7 +80,7 @@ class Resumepage extends React.Component{
           </div>
 
           <footer>
-            <a href="img/resume.pdf" download="resume.pdf"><i className="fa fa-download"></i> Download Resumé</a>
+            <a href="img/resume.pdf" download="resume.pdf"><i className="fa fa-download animated bounce"></i> Download Resumé</a>
           </footer>
         </div>
       </div>

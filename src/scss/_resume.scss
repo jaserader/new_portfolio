@@ -17,7 +17,7 @@
       color: $white;
       padding: 30px 20px 30px 20px;
       border-radius: 3px;
-      animation-duration: 2.0s;
+      animation-duration: 1.0s;
 
       #skills{
         @include span-columns(11);
@@ -79,7 +79,7 @@
       a{
         font-size: 20px;
         text-decoration: none;
-        color: $link-color;
+        color: $gray;
 
         &:hover{
           color: $link-hover-color;
@@ -87,6 +87,7 @@
 
         i{
           font-size: 36px;
+          animation-iteration-count: 5;
         }
       }
     }

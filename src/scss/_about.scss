@@ -29,7 +29,7 @@
         height: 520px;
         border-radius: 3px;
         opacity: none;
-        animation-duration: 2.0s;
+        animation-duration: 1.0s;
         box-shadow: 2px 2px 2px 2px #BABABA;
       }
 
@@ -39,7 +39,7 @@
         color: $white;
         padding: 35px;
         border-radius: 3px;
-        animation-duration: 2.0s;
+        animation-duration: 1.0s;
         box-shadow: 2px 2px 2px 2px #BABABA;
         height: 520px;
       }
@@ -49,7 +49,7 @@
         font-size: 22px;
         margin: 0 0 30px 0;
         text-align: justify;
-        font-family: 'Ravi Prakash', cursive;
+        // font-family: 'Ravi Prakash', cursive;
       }
 
     }
@@ -58,7 +58,6 @@
       @include span-columns(12);
       position: fixed;
       bottom: 0;
-      padding: 5px 0 5px 0;
       background: linear-gradient(to right, $white, $teal);
 
       span{
@@ -67,7 +66,7 @@
         padding-left: 25px;
         padding-top: 10px;
         padding-bottom: 10px;
-        color: $link-color;
+        color: $gray;
       }
     }
   }

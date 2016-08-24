@@ -5,7 +5,7 @@
     @include span-columns(12);
     padding: 75px 0 50px 0;
     position: absolute;
-    top: 65px;
+    top: 40px;
     z-index: 1;
 
     .blue{
@@ -13,8 +13,20 @@
       margin-top: 100px;
 
       .screen-shot{
+        &:hover{
+          transition: all 0.5s;
+          border-color: $yellow;
+        }
+
         img{
           background-image: url("../img/gamewisp.png");
+        }
+      }
+
+      .description{
+        &:hover{
+          transition: all 0.5s;
+          color: $yellow;
         }
       }
     }
@@ -24,8 +36,20 @@
       margin-top: 300px;
 
       .screen-shot{
+        &:hover{
+          transition: all 0.5s;
+          border-color: $gray;
+        }
+
         img{
           background-image: url("../img/goals_screen.png");
+        }
+      }
+
+      .description{
+        &:hover{
+          transition: all 0.5s;
+          color: $gray;
         }
       }
     }
@@ -33,20 +57,45 @@
     .purple{
       background: $purple;
 
+
       .screen-shot{
+        &:hover{
+          transition: all 0.5s;
+          border-color: $teal;
+        }
+
         img{
           background-image: url("../img/addressbook_screen.png");
         }
       }
+
+      .description{
+        &:hover{
+          transition: all 0.5s;
+          color: $teal;
+        }
+      }
     }
 
-    .green{
+    .yellow{
       background: $yellow;
       margin-top: 150px;
 
       .screen-shot{
+        &:hover{
+          transition: all 0.5s;
+          border-color: $blue;
+        }
+
         img{
           background-image: url("../img/github_repo.png");
+        }
+      }
+
+      .description{
+        &:hover{
+          transition: all 0.5s;
+          color: $blue;
         }
       }
     }
@@ -57,7 +106,7 @@
       color: $white;
       border-radius: 3px;
       // box-shadow: 3px 3px 3px 3px #BABABA;
-      animation-duration: 2.0s;
+      animation-duration: 1.0s;
 
       &:first-of-type{
         @include shift(1);
@@ -72,10 +121,6 @@
         border-radius: 3px;
         border: 5px solid rgba(255,255,255, .8);
 
-        &:hover{
-          border-color: $teal;
-        }
-
         img{
           @include span-columns(12);
           height: 100%;
@@ -87,10 +132,7 @@
         @include span-columns(11);
         @include shift(.5);
         color: #fff;
-
-        &:hover{
-          color: $teal;
-        }
+        padding-bottom: 10px;
 
         p{
           @include span-columns(12);
@@ -103,7 +145,6 @@
       @include span-columns(12);
       position: fixed;
       bottom: 0;
-      padding: 5px 0 5px 0;
       background: linear-gradient(to right, $white, $teal);
 
       span{
@@ -112,7 +153,7 @@
         padding-left: 25px;
         padding-top: 10px;
         padding-bottom: 10px;
-        color: $link-color;
+        color: $gray;
       }
     }
   }
@@ -124,14 +165,15 @@
 
       .orange,
       .green,
-      .blue{
+      .blue,
+      .yellow{
         margin-top: 0px;
       }
 
       .portfolio-column{
         @include span-columns(4);
         @include omega(2n);
-        height: 350px;
+        // height: 350px;
         margin-bottom: 20px;
 
 

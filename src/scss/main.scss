@@ -26,7 +26,7 @@
     height: 100vh;
     position: fixed;
     z-index: -10000;
-    animation-duration: 3.25s;
+    animation-duration: 1.75s;
   }
 
   .background-filter{
@@ -43,7 +43,6 @@
 
   header{
     @include span-columns(12);
-    padding: 5px 0 5px 0;
     background: linear-gradient(to right, $white, $teal);
     position: fixed;
     top: 0;
@@ -52,15 +51,16 @@
     a{
       @include span-columns(6);
       text-decoration: none;
-      color: $link-color;
+      color: $gray;
 
       .logo{
         @include shift(.75);
         background-image: url("../img/Jaselogo_2.png");
         background-size: cover;
-        width: 50px;
-        height: 50px;
-        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 8px;
       }
     }
 
@@ -70,19 +70,57 @@
       #slideout-nav{
         @include span-columns(12);
         padding: 0;
-        animation-duration: 1.25s;
+        animation-duration: 1.00s;
 
         a{
-          @include span-columns(2);
-          font-size: 20px;
-          color: $link-color;
+          font-size: 16px;
+          color: $gray;
+          padding: 0 25px 0 25px;
+          display:inline-block;
+          width:auto;
+          float:none;
 
           &:hover{
+            transition: all 0.35s;
             color: $link-hover-color;
           }
 
           &:first-of-type{
             @include shift(2);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1437px){
+  #app{
+    header{
+      .nav{
+        #slideout-nav{
+          a{
+            &:first-of-type{
+              @include shift(.5);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1227px){
+  #app{
+    header{
+      .nav{
+        #slideout-nav{
+          a{
+            padding: 0 15px 0 15px;
+
+            &:first-of-type{
+              @include shift(1);
+            }
           }
         }
       }
@@ -104,18 +142,55 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1038px){
+  #app{
+    header{
+      .nav{
+        #slideout-nav{
+          a{
+            padding: 0 15px 0 15px;
+
+            &:first-of-type{
+              @include shift(0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 940px){
   #app{
     header{
       a{
-        @include span-columns(4);
+        @include span-columns(2);
       }
       .nav{
-        @include span-columns(8);
+        @include span-columns(10);
 
         #slideout-nav{
           a{
-            font-size: 16px;
+            padding: 0 15px 0 15px;
+
+            &:first-of-type{
+              @include shift(2.8);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  #app{
+    header{
+      .nav{
+
+        #slideout-nav{
+          a{
+            font-size: 14px;
           }
         }
       }
@@ -127,15 +202,16 @@
   #app{
     header{
       a{
-        @include span-columns(1);
+        @include span-columns(1.25);
       }
       .nav{
-        @include span-columns(11);
+        @include span-columns(10.75);
         margin-top: 3px;
 
         #slideout-nav{
           a{
-            font-size: 14px;
+            font-size: 12px;
+            padding: 0 2px 0 2px;
           }
         }
       }
@@ -149,7 +225,8 @@
       .nav{
         #slideout-nav{
           a{
-            font-size: 12px;
+            font-size: 11px;
+            padding: 0 0px 0 0px;
           }
         }
       }

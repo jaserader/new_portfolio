@@ -28,7 +28,6 @@
         margin-top: 0px;
         margin-bottom: 0px;
         position: relative;
-        // top: -30px;
         color: $blue;
       }
     }
@@ -40,9 +39,8 @@
     opacity: .85;
     position: fixed;
     bottom: 0;
-    animation-duration: 2.75s;
+    animation-duration: 1.25s;
     border-top: 5px solid rgba(255,255,255, .1);
-    animation-iteration-count: 1;
 
     ul{
       @include span-columns(12);
@@ -53,10 +51,11 @@
         text-align: center;
         font-size: 26px;
         font-weight: 300;
-        color: $link-color;
+        color: $gray;
         text-decoration: none;
 
         &:hover{
+          transition: all 0.35s;
           color: $link-hover-color;
         }
 
