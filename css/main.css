@@ -735,6 +735,9 @@ html {
           margin-right: 0; }
         #resumepage .resume-container .resume .resume-block .resume-title:nth-child(n) {
           margin-right: 0; }
+        #resumepage .resume-container .resume .resume-block .resume-title span {
+          text-transform: none;
+          font-size: 18px; }
         #resumepage .resume-container .resume .resume-block .resume-title:last-of-type {
           float: left;
           display: block;
@@ -890,6 +893,8 @@ html {
           margin-right: 0; }
         #resumepage .resume-container .resume .resume-block .resume-title:nth-child(n) {
           margin-right: 0; }
+        #resumepage .resume-container .resume .resume-block .resume-title span {
+          font-size: 14px; }
         #resumepage .resume-container .resume .resume-block .resume-title:last-of-type {
           float: left;
           display: block;
@@ -970,7 +975,8 @@ html {
         width: 100%;
         font-size: 14px;
         text-align: center;
-        font-weight: 500; }
+        font-weight: 500;
+        margin-bottom: 10px; }
         #resumepage .resume-container .resume .resume-block .resume-title:last-child {
           margin-right: 0; }
         #resumepage .resume-container .resume .resume-block .resume-title:nth-child(n) {
