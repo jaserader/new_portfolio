@@ -144,7 +144,6 @@
 @media screen and (max-width: 768px){
   #contactpage{
     .contact-container{
-
       .social-info{
         @include span-columns(10);
         @include shift(1);
