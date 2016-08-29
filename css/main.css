@@ -1178,6 +1178,26 @@ html {
     #contactpage .contact-container .social-info:last-child {
       margin-right: 0; } }
 
+@media screen and (max-width: 768px) {
+  #contactpage .contact-container .social-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    #contactpage .contact-container .social-info:last-child {
+      margin-right: 0; }
+    #contactpage .contact-container .social-info a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      #contactpage .contact-container .social-info a:last-child {
+        margin-right: 0; }
+      #contactpage .contact-container .social-info a i:hover {
+        transition: all 0.5s ease;
+        font-size: 36px; } }
+
 @media screen and (max-width: 414px) {
   #contactpage .contact-container {
     top: 50px; }
