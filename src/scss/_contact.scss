@@ -141,6 +141,28 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  #contactpage{
+    .contact-container{
+
+      .social-info{
+        @include span-columns(10);
+        @include shift(1);
+
+        a{
+          @include span-columns(3);
+          i{
+            &:hover{
+              transition: all 0.5s ease;
+              font-size: 36px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 414px){
   #contactpage{
     .contact-container{
