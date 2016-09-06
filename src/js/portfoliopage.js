@@ -31,7 +31,7 @@ class Portfoliopage extends React.Component{
               <img></img>
             </a>
             <a href="https://gamewisp.com/" className="description">
-              <p>GameWisp: This is a screen shot of the current landing page of GameWisp which I designed and built. The rest of the site I designed and help build with launch around September 1, 2016.</p>
+              <p>GameWisp: This is a screen shot of the current landing page of GameWisp which I designed and built. The rest of the site I designed and help build with launch by the end of September 2016.</p>
             </a>
           </div>
 
